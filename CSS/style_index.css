@@ -1,4 +1,4 @@
-.wrap {
+/* .wrap {
 	min-width: 600px;
 	width: 80%;
 	margin: auto;
@@ -42,4 +42,41 @@ li {
 	display: inline;
 	float: right;
 	padding-right: 10px;
+} */
+
+#header {
+	/* overflow: hidden; */
+	/*background-color: #f1f1f1;*/
+	font-family: Verdana, Geneva, sans-serif;
+	/*font-weight: bold;*/
+}
+
+#logo {
+	/*margin-left: 10%;*/
+	padding: 10px;
+}
+
+#headerLinks a {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	padding: 20px;
+	color: white;
+	border: 3px solid white;
+	border-radius: 40px;
+	text-decoration: none;
+}
+
+#headerLinks a:hover {
+	color: rgba(0,0,0,0.4);
+	background: rgba(255,255,255,1);
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	/* height: 400%; */
+	background-image: url("../images/background.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
