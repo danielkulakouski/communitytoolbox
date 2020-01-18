@@ -1,6 +1,7 @@
 <?php
     include('header.php');
     include('login.php');
+    include('register.php');
 ?>
 
 <!DOCTYPE html>

@@ -17,6 +17,7 @@
 	padding: 20px;
 	color: white;
 	border: 3px solid white;
+	background: rgba(0, 0, 0, 0.3);
 	border-radius: 40px;
 	text-decoration: none;
 }
@@ -65,7 +66,7 @@ body {
 	/*background-color: rgba(255, 255, 255, 0);*/
 	/*color: rgba(0,0,0,0.6);*/
 	font-size: 15px;
-	border: 2px solid white;
+	border: 2px solid lightgrey;
 	border-radius: 5px;
 	outline: none;
 	width: 100%;
@@ -100,10 +101,10 @@ body {
 }
 
 #login {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	/*background-color: rgb(255, 255, 255);*/
 }
 #register {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	/*background-color: rgb(255, 255, 255);*/
 }

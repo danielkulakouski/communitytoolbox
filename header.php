@@ -8,7 +8,8 @@
     <title>Community Toolbox</title>
     <div id="header">
         <div id="logo" style="float: left">
-        <a href = "#"><img src = "images/logo.png" alt = "Logo" height = "90" width = "230"></a>
+        <a href = "home.php">
+        <img src = "images/logo.png" alt="logo" height = "90" width = "230"></a>
     </div>
     <div id="headerLinks" style="float: right">
         <a href="home.php">HOME</a>
