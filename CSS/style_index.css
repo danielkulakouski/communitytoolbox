@@ -10,6 +10,30 @@
 	padding: 10px;
 }
 
+.formButtons {
+	left: 50%;
+}
+
+.forms {
+	border-radius: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	/*color: 	rgb(105,105,105);*/
+	color: black;
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	/*margin: auto;*/
+
+	/*height: 10%;*/
+	width: 30%;
+	text-align: left;
+	/*margin: 400px;*/
+	padding: 50px;
+	/*text-align: center;*/
+}
+
 #headerLinks a {
 	position: relative;
 	text-align: center;
@@ -54,7 +78,7 @@ body {
 	padding: 14px 16px;
 	font-size: 17px;
 	width: 15%;
-	left: 100%;
+	/*left: 100%;*/
 }
 
 .formlink:hover {

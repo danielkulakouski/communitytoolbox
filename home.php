@@ -10,12 +10,12 @@
             <h1>Tools</h1>
             <input type="text" placeholder="Seach for tools..."/>
         </div> -->
-        <div id="formwbuttons">
+        <!-- <div id="formButtons">
          <button class="formlink" onclick="openForm('login', this)" id="defaultOpen">Login</button>
          <button class="formlink" onclick="openForm('register', this)" id="badRegister">Create an Account</button>
-        </div>
+        </div> -->
 
-        <script>
+     <!--    <script>
         function openForm(formName, elmnt) {
           var tabcontent;
           tabcontent = document.getElementsByClassName("forms");
@@ -39,6 +39,6 @@
         <?php } else { ?>
           document.getElementById("badRegister").click();
         <?php } ?>
-        </script>
+        </script> -->
     </body>
 </html>

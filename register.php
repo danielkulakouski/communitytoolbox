@@ -11,7 +11,7 @@
 		<input type="text" name="r_email" value="" id="inputfield">
 		<br/>
 		<!-- Password -->
-		<label>Password (requires uppercase letter, lowercase letter, digit, and minimum length of 8 characters)</label>
+		<label>Password (requires at least 6 characters)</label>
 		<br/>
 		<input type="password" name="r_password1" value="" id="inputfield">
 		<br/>
