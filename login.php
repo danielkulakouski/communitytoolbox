@@ -13,7 +13,7 @@ include('header.php');
 
     <div id="formwbuttons">
         <div >
-            <form  id="login" class="forms" action="login.php" method="POST">
+            <form  id="login" class="forms" action="includes/login.inc.php" method="POST">
               <label>Email</label>
               <br/>
               <input type="text" name="email" placeholder=""  id="inputfield">
