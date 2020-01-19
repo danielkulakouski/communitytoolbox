@@ -9,7 +9,7 @@
 	<div class="wrap">
 		<h1 class="bigtext">Creat a Community Toolbox Account</h1>
 		<div class="content">
-			<form action="#" method="POST">
+			<form action="includes/creare_account.inc.php" method="POST">
 				<p class="smalltext">First Name</p>
 				<input type="text" name="first"/>
 				<p class="smalltext">Last Name</p>
