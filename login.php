@@ -45,7 +45,7 @@
 
                 <div id="formwbuttons">
                     <div id="login" >
-                     <form class="loginform" action="login.php" method="POST">
+                     <form class="loginform" action="includes/login.inc.php" method="POST">
                       <label>Email</label>
                       <br/>
                       <input type="text" name="email" placeholder=""  id="inputfield">
