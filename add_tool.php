@@ -9,11 +9,12 @@
 	<div class="wrap">
 		<h1 class="bigtext">Add your tool</h1>
 		<div class="content">
-			<form action="#" method="POST">
+			<form action="includes/add_tool>inc.php" method="POST">
 				<p class="smalltext">Tool Name</p>
 				<input type="text" name="tools_name"/>
 				<p class="smalltext">Price</p>
 				<input type="text" name="price"/>
+				<br/>
 				<button type="submit" name="submit">Add your tool</button>
 			</form>
 			<?php
