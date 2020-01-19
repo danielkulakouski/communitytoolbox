@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="#"/>
-	<title>Create Account</title>
-</head>
-<body>
-	<div class="wrap">
+    <?php
+    include('header.php');
+    ?>
+
+    <!DOCTYPE html>
+    <body>
+
+        <!-- <div id="formButtons"> -->
+            <!-- <button class="formlink" action="login.php">Login</button>
+                <button class="formlink" action="register.php" id="badRegister">Create an Account</button> -->
+
+                <a href="login.php" class="formlink">Login</a>
+                <a href="create_account.php" class="formlink">Register</a>
+	<div id="formwbuttons">
 		<h1 class="bigtext">Creat a Community Toolbox Account</h1>
-		<div class="content">
+		<!-- <div class="content"> -->
 			<form action="includes/creare_account.inc.php" method="POST">
 				<p class="smalltext">First Name</p>
 				<input type="text" name="first"/>
@@ -52,7 +57,7 @@
 				}
 			?>
 			<p id=x>Already have an account? Click <a class="link" href="login.php">here</a> to login.</p>
-		</div>
+		<!-- </div> -->
 	</div>
 </body>
 </html>
