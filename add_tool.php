@@ -13,7 +13,7 @@
 		<div class="content">
 			<form action="includes/add_tool.inc.php" method="POST">
 				<p class="smalltext">Tool Name</p>
-				<input type="text" name="tools_name"/>
+				<input type="text" name="tool_name"/>
 				<p class="smalltext">Price</p>
 				<input type="text" name="price"/>
 				<br/>
