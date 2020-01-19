@@ -2,6 +2,6 @@
 	$dbServername = "localhost";
 	$dbUsername = "root";
 	$dbPassword = "root";
-	$dbName = "loginsystem";
+	$dbName = "CommunityTB";
 	$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 ?>
